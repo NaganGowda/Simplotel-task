@@ -1,0 +1,107 @@
+.bg-container {
+  background-image: url("img1.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+.top-section {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  padding: 15px;
+}
+
+li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card {
+  background-color: rgba(218, 21, 21, 0.5);
+  padding: 20px;
+  margin: 100px;
+  width: 30vw;
+}
+
+.heading {
+  font-size: 35px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.para {
+  font-size: 18px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.bottom-section {
+  background: linear-gradient(
+    to right,
+    rgb(235, 7, 178),
+    rgba(224, 217, 12, 0.877)
+  );
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+.line {
+  border-width: 6px;
+  border-style: solid;
+  border-color: white;
+  padding-top: 100px;
+  width: 100vw;
+}
+
+.bottom-heading {
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.foodcard {
+  background-color: white;
+  padding: 15px;
+  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 20%;
+  width: 25%;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.image {
+  height: 60%;
+  width: 80%;
+  border-top-right-radius: 50px;
+  padding: 20px;
+}
+
+.bottom-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.button {
+  text-align: center;
+}
+
+.button1 {
+  font-size: 20px;
+  padding: 15px;
+  color: black;
+  background-color: #e6edc5fe;
+  height: 10%;
+  width: 20%;
+  border-radius: 25px;
+}
